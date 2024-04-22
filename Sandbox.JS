@@ -1,6 +1,6 @@
 // Programmer: John Burke
 // Team Member: Jack Sutton
-// Bolt ID: SB E2)
+// Bolt ID:
 // Date: 4.16.24
 // Program: Hello World - Sandbox
 // Program URL: https://edu.sphero.com/program/16700457/edit
@@ -14,11 +14,12 @@ async function startProgram() {
 	setSpeed(0);
 }
 */
+/*
 async function startProgram() {
 
 	setMainLed({ r: 100, g: 100, b: 200 });
 
-	await speak("skibiti sigma fanum rizz", true);
+	await speak("", true);
 
 	await delay(1);
 
@@ -34,4 +35,9 @@ async function startProgram() {
 
 	}
 
+}
+*/
+async function startProgram() {
+	await roll(90, 200, 2);
+	
 }
