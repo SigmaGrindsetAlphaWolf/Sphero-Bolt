@@ -18,7 +18,7 @@ async function startProgram() {
 
 	setMainLed({ r: 100, g: 100, b: 200 });
 
-	await speak("wassuh cuh fanum rizz", true);
+	await speak("skibiti sigma fanum rizz", true);
 
 	await delay(1);
 
@@ -26,7 +26,7 @@ async function startProgram() {
 
 		setMainLed(getRandomColor());
 
-		await Sound.Game.Coin.play(true);
+		await Sound.EightBit.Explosion.play(true);
 
 		await roll((getHeading() + 90), 60, 2);
 
