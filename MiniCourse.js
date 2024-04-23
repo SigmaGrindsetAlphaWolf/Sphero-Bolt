@@ -15,16 +15,12 @@ async function startProgram() {
 		await Sound.EightBit.Explosion.play(true);
 		await roll((getHeading() + 90), 60, 1.2);
 		await delay(1);
-		await roll((getHeading() - 90), 60, 2.4);
+		await roll((getHeading() - 90), 60, 2.45);
+		await delay(1);
+		await roll((getHeading() - 90), 60, 1.2);
 		await delay(1);
 	}	
 }
-
-
-
-
-
-
 
 
 
