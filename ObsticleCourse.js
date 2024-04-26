@@ -5,6 +5,8 @@
 // Program: Obstacle Course
 // Program URL:
 
+
+/*
 // John Burke
 async function startProgram() {
 	setMainLed({ r: 100, g: 100, b: 200 });
@@ -16,4 +18,13 @@ async function startProgram() {
 		await roll((getHeading() + 0), 60, 1.9);
 		await delay(1);
 	}
+}
+*/
+// Jack Sutton
+async function startProgram() {
+		await roll((getHeading() + 0), 60, 1.9);
+		await delay(1);
+		await roll((getHeading() - 90), 60, 1.3);
+		await delay(1);
+	
 }
