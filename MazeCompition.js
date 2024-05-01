@@ -6,11 +6,10 @@
 // Program URL: https://edu.sphero.com/program/16788347/edit
 
 async function startProgram() {
-	// Programmer: John Burke - Start Text & Audtio Checkpoint Commit - Date:	
-	
+	// Programmer: John Burke - Start Text & Audtio Checkpoint Commit - Date:5/1/24
+	await speak("Start", true);
+	await ScrollMatrixText("Start", ({ r: 90, g: 255, b: 90 })true);
 
-	
-	
 	// Programmer:             - Blue LED Checkpoint Commit - Date:
 	
 	
@@ -35,5 +34,6 @@ async function startProgram() {
 	
 	
 	
-	// Programmer: Jack Sutton - Start Text & Audtio Checkpoint Commit - Date:	
+	// Programmer:             - Start Text & Audtio Checkpoint Commit - Date:	
+
 }
